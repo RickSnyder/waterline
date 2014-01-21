@@ -18,7 +18,7 @@ var expect = require('./helpers/cb.helper.js');
 
 describe('Waterline Collection', function() {
 
-  describe(':: error negotiation & handlers ::', function() {
+  describe.skip(':: error negotiation & handlers ::', function() {
 
     // Bootstrap a collection
     before(bootstrapCollection({
