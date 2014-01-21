@@ -14,18 +14,14 @@ var test = {
 };
 var expect = require('./helpers/cb.helper.js');
 
-
-
 describe('Waterline Collection', function() {
 
-  describe.skip(':: error negotiation & handlers ::', function() {
+  describe(':: error negotiation & handlers ::', function() {
 
     // Bootstrap a collection
     before(bootstrapCollection({
       adapter: require('./fixtures/adapter.withHandlers.fixture')
     }));
-
-
 
     // Vocabulary methods should upgrade callbacks to handlers
 
