@@ -2,9 +2,9 @@
  * Module dependencies
  */
 var assert = require('assert'),
-  should = require('should'),
-  util = require('util'),
-  _ = require('lodash');
+    should = require('should'),
+    util = require('util'),
+    _ = require('lodash');
 
 
 // Helpers/suites
